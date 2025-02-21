@@ -1,0 +1,14 @@
+{
+  "name": "pomo",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Ishwari Pusadkar",
+  "license": "ISC",
+  "description": "A simple Pomodoro Timer built with Electron",
+  "dependencies": {
+    "electron": "^34.2.0"
+  }
+}
