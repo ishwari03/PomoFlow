@@ -1,0 +1,150 @@
+body {
+    font-family: "Jersey 15", serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f8f9fa;
+    margin: 0; /* Remove default margins */
+    padding: 0; /* Remove default padding */
+    height: 100%; /* Make html and body take up full viewport height */
+    overflow: hidden; /* Prevent scrollbars */
+}
+
+#heading{
+    font-size:3rem;
+}
+.container {
+    background: rgb(230, 63, 63);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* width: 300px; */
+    color:white;
+    letter-spacing: 2px;
+    width: 528px; /* Take full window width */
+    height: 497px; /* Take full window height */
+}
+
+.welcome-img {
+    width: 200px; /* Adjust as needed */
+    height:auto;
+    margin: 10px auto;
+    display:block;
+    filter: brightness(1) contrast(1);
+}
+
+#start-btn{
+    font-size: 16px;
+    padding: 10px 15px;
+    margin: 5px;
+}
+.task-img {
+    width: 150px; /* Adjust as needed */
+    height:auto;
+    margin: 10px auto;
+    display:block;
+    filter: brightness(1) contrast(1);
+}
+/* button {
+    background-color: #ff6b6b;
+    color: white;
+    font-weight: bold;
+    font-size:large;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+} */
+h1{
+    font-weight: 900;
+   
+}
+ p{
+    font-style: italic;
+ }
+button:hover {
+    background-color: #ff5252;
+    size
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border: 5px solid #e79a0c;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #ff6b6b;
+}
+
+#timer {
+    font-size: 4.5rem;
+    font-weight: bold;
+    margin: 20px 0;
+    color: white;
+}
+
+button {
+    background-color:  #ff3b3b;
+    color: white;
+    border: 3px solid white;
+    padding: 10px 15px;
+    margin: 5px;
+    font-size: 16px;
+    border-radius: 10%;
+    cursor: pointer;
+    font-family: "Jersey 15", serif;
+    letter-spacing: 4px;
+}
+
+button:hover {
+    background-color:#ff6b6b ;
+}
+#break-timer {
+    font-size: 4.5rem;
+    font-weight: bold;
+    /* background: #f8d7da; */
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    width:476px;
+    height:72px;
+}
+
+#start-break {
+    background: #ff3b3b;
+    color: white;
+    border: 3px solid white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#start-break:hover {
+    background: #ff6b6b;
+}
+.break-img{
+    width: 150px; /* Adjust as needed */
+    height:115px;
+    margin: 10px auto;
+    display:block;
+    filter: brightness(1) contrast(1);
+        
+}
+.ongoing-img{
+    width: 150px; /* Adjust as needed */
+    height:auto;
+    margin: 10px auto;
+    display:block;
+    filter: brightness(1) contrast(1);
+}
